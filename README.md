@@ -1,1 +1,1 @@
-# 破产版jquery
+# 破产版jQuery

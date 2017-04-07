@@ -1,8 +1,8 @@
 'use strict'
 
-var Callbacks = require('./Callbacks');
+const Callbacks = require('./Callbacks');
 
-var Deferred = function(func){
+const Deferred = function(func){
 	var tuples = [
 		['resolve','done',Callbacks({memory:true,once:true}),'resolve'],
 		['reject','fail',Callbacks({memory:true,once:true}),'rejected'],

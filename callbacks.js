@@ -1,6 +1,6 @@
 'use strict'
 
-var Callbacks = function(options){
+const Callbacks = function(options){
 	options = typeof options === 'object' ? options : {
 		once:false,
 		memory:false,

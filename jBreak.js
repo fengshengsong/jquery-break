@@ -74,7 +74,7 @@
 					if(target == copy){
 						continue;
 					}
-					if(deep && copy && (jBreak.isPlainObject(copy) || copyIsArray = jBreak.isArray(copy))){
+					if(deep && copy && (jBreak.isPlainObject(copy) || copyIsArray == jBreak.isArray(copy))){
 						if(copyIsArray){
 							copyIsArray = false;
 							clone = src && jBreak.isArray(src) ? src : [];
